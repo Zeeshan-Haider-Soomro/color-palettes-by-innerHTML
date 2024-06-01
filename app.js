@@ -35,7 +35,7 @@ function colorPalettes() {
     "#33FF99"  // Light Sea Green
   ];
   for (let i = 0; i < 32; i++) {
-    mainBox.innerHTML += `<div style = "width : 150px; height : 150px; background-color :${randomColors[i]}; border: 2px solid white";> <h3 style = "display:flex;justify-content:center;align-items:center;height:100%" onclick="copied('${randomColors[i]}')"> ${randomColors[i]} </p></div>`
+    mainBox.innerHTML += `<div style = "width : 172px; height : 172px; background-color :${randomColors[i]}; border: 2px solid white";> <h3 style = "display:flex;justify-content:center;align-items:center;height:100%" onclick="copied('${randomColors[i]}')"> ${randomColors[i]} </p></div>`
 
   }
 }
