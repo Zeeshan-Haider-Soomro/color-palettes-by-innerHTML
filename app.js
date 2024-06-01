@@ -29,12 +29,8 @@ function colorPalettes() {
     "#B8FF33", // Lime
     "#FF33FF", // Fuchsia
     "#33FFF0", // Electric Blue
-    "#FFD733", // Mustard
-    "#33FFD7",  // Turquoise
-    "#0F9033", // Tangerine
-    "#33FF99"  // Light Sea Green
   ];
-  for (let i = 0; i < 32; i++) {
+  for (let i = 0; i < 28; i++) {
     mainBox.innerHTML += `<div style = "width : 172px; height : 172px; background-color :${randomColors[i]}; border: 2px solid white";> <h3 style = "display:flex;justify-content:center;align-items:center;height:100%" onclick="copied('${randomColors[i]}')"> ${randomColors[i]} </p></div>`
 
   }
